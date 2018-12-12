@@ -53,3 +53,38 @@ body {
     display: inline;
     margin: 5px;
   }
+  @media only screen and (max-width:900px){
+    nav ul li{
+      display: block;
+    }
+    header{
+      flex-direction: column;
+      text-align: center;
+    }
+    section>div{
+      width: 50%;
+    }
+    section {
+      padding-left:0;
+      padding-right:0;
+      margin: 0;
+    }
+  }
+  @media only screen and (max-width:765px){
+    nav ul li{
+      display: block;
+    }
+    header{
+      flex-direction: column;
+      text-align: center;
+    }
+    section>div{
+      width: 100%;
+    }
+    section {
+      padding-left:0;
+      padding-right:0;
+      margin: 0;
+    }
+  }
+  
